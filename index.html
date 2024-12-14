@@ -5,30 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RA Artistic Enterprises</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-
 </head>
+
 <body>
    <header>
     <nav id="header_nav" class="header_nav_wrapper flex_container_std">
-        <div id="nav_logo" class="nav_logo_wrapper">
+        <a id="nav_logo" class="nav_logo_wrapper" href="/">
             <img src="img/website_logo.webp" alt="RA Artistic Enterprises Logo">
-        </div>
-        <div id="header_nav_links" class="nav_links">
-            <a href="/">Page 1</a>
-            <a href="/">Page 2</a>
-            <a href="/">Page 3</a>
-        </div>
+        </a>
+        <button id="hamburger" class="hamburger_button flex_container_std">
+            <img id="hamburger_icon" class="hamburger_icon" src="img/hamburger-menu-bold.svg" alt="hamburger menu icon">
+        
+            <img id="hamburger_icon_close" class="hamburger_icon" src="img/close-square-bold.svg" alt="hamburger menu close icon">
+        </button>
+        <ul id="header_nav_links" class="nav_links flex_container_std">
+            <li><a href="/">Page 1</a></li>
+            <li><a href="/">Page 2</a></li>
+            <li><a href="/">Page 3</a></li>
+        </ul>
     </nav>
    </header>
 
+    <main>
+        <p>Bananas</p>
+        <h1>Pancake</h1>
+        <h2>banana pancakes</h2>
+    </main>
 
-
-
-
-    <p>Bananas</p>
-    <h1>Pancake</h1>
-    <h2>banana pancakes</h2>
 </body>
 </html>
